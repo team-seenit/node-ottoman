@@ -23,6 +23,7 @@
     "docs:start": "cd docusaurus && yarn start",
     "is:ready": "yarn lint && yarn build && yarn test:ready",
     "lint": "eslint '*/**/*.ts' --ignore-pattern '/lib/*' --quiet --fix",
+    "release": "./scripts/release.sh",
     "test": "jest --clearCache && jest -i",
     "test:legacy": "jest --clearCache && OTTOMAN_LEGACY_TEST=1 jest -i",
     "test:coverage": "jest --clearCache && OTTOMAN_LEGACY_TEST=1 jest -i --coverage",
