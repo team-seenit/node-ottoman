@@ -441,6 +441,7 @@ export abstract class Document {
     } else {
       fieldsToPopulate = extractSchemaReferencesFields(this.$.schema);
     }
+
     for (const fieldName in fieldsToPopulate) {
       const data = this[fieldName];
       if (Array.isArray(data)) {
