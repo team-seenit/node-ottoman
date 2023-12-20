@@ -68,13 +68,17 @@
     "lodash": "4.17.21",
     "uuid": "9.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/couchbaselabs/node-ottoman.git"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh@github.com:team-seenit/node-ottoman.git",
+    "directory": "packages/constants"
   }
 }
