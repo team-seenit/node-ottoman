@@ -1,5 +1,5 @@
 {
-  "name": "ottoman",
+  "name": "@team-seenit/ottoman",
   "version": "2.3.4",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",
@@ -73,11 +73,8 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/team-seenit/node-ottoman.git"
+    "url": "https://github.com/team-seenit/node-ottoman"
   }
 }
