@@ -78,7 +78,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh@github.com:team-seenit/node-ottoman.git",
-    "directory": "packages/constants"
+    "url": "git+ssh://git@github.com/team-seenit/node-ottoman.git"
   }
 }
